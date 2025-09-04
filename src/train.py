@@ -13,8 +13,8 @@ from multiprocessing import freeze_support
 def main():
     config = {
         'num_classes': 317,
-        'batch_size': 32,
-        'epochs': 100,
+        'batch_size': 128,
+        'epochs': 50,
         'learning_rate': 0.01,
         'val_ratio': 0.2,
         # 'device': torch.device('cuda' if torch.cuda.is_available() else 'cpu'),
