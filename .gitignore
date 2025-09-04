@@ -2,3 +2,13 @@
 
 *.png
 *.pth
+*.pkl
+
+.DS_Store
+.idea/indoor_localization.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+src/__pycache__/
+training_history.pkl
